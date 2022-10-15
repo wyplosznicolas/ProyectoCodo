@@ -84,7 +84,7 @@ body{
     font-size: 25px;
 }
 
-.social-networks i {
+.social-networks > i {
     margin:2px;
     padding:2px;
 }
