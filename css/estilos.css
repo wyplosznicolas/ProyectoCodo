@@ -1,3 +1,7 @@
+body{
+    color:black;
+}
+
 .container{
     display: grid;
     grid-template: 100px 1fr 100px / 1fr 250px;
@@ -38,7 +42,7 @@
 }
 
 .item{
-    background-color: blue;
+    background-color: lightblue;
     padding: 10px;
     color: black;
     border-radius: 10px;
@@ -46,18 +50,16 @@
 
 .menu{
     
-    background-color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
     width:100%;
     height: 100%;
     border-radius: 10px;
 }
 
 .menu a{
-    color: white;
     padding: 10px;
     margin:10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     line-height: 30px;
@@ -67,4 +69,22 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.header, .footer{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contenido, .right{
+    font-family: 'Jost', sans-serif;
+}
+
+.social-networks{
+    text-align: center;
+    font-size: 25px;
+}
+
+.social-networks i {
+    margin:2px;
+    padding:2px;
 }
