@@ -88,3 +88,7 @@ body{
     margin:2px;
     padding:2px;
 }
+
+.dato{
+    text-decoration: underline;
+}
