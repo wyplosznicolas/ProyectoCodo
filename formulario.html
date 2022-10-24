@@ -24,7 +24,7 @@
             </nav>
         </div>
         <div class="item contenido">
-            <h1 class="registro">Formulario de registro</h1>
+            <h1>Formulario de Registro</h1>
         
             <form action="show_data.html" method="POST">
                 <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre aqui" required>
@@ -45,19 +45,28 @@
                 <label for="fechaNac">Fecha de Nacimiento (dd/mm/yyyy): </label><input type="text" name="fechaNac" id="fechaNac" placeholder="Ingrese su fecha de nacimiento aqui" size="28">
                 <br>
                 <br>
-                <br>
                 <label for="genero">Género: </label>
                 <input type="radio" name="genero" value="Hombre" checked>Hombre
                 <input type="radio" name="genero" value="Mujer">Mujer
                 <input type="radio" name="genero" value="Otro">Otro
                 <br>
                 <br>
-                <label for="estudios">Estudios: </label>
-                <input type="checkbox" name="estudios" value="Primarios">Primarios
-                <input type="checkbox" name="estudios" value="Secundarios">Secundarios
-                <input type="checkbox" name="estudios" value="Terciarios">Terciarios
-                <input type="checkbox" name="estudios" value="Universitarios">Universitarios
-                <input type="checkbox" name="estudios" value="Otro">Otro
+                <label for="mascotas">Mascotas: </label>
+                <input type="checkbox" name="mascotas" value="Perro">Perro
+                <input type="checkbox" name="mascotas" value="Gato">Gato
+                <input type="checkbox" name="mascotas" value="Canario">Canario
+                <input type="checkbox" name="mascotas" value="Peces">Peces
+                <input type="checkbox" name="mascotas" value="Otro">Otro
+                <br>
+                <br>
+                <label for="cual">(Si respondió "otro") ¿Qué mascota tiene?: </label>
+                <input type="text" name="cual" id="cual" placeholder="Ingrese la especie de su mascota" size="25">
+                <br>
+                <br>
+                <label for="sexo">Sexo Mascota(s): </label>
+                <input type="radio" name="sexo" value="Macho" checked>Macho
+                <input type="radio" name="sexo" value="Hembra">Hembra
+                <input type="radio" name="sexo" value="Ambos">Ambos
                 <br>
                 <br>
                 <input class="submit" type="submit" value="Enviar">
@@ -67,13 +76,23 @@
     
             </form>
         </div>
-        <div class="item footer">Footer
+        <div class="item footer">
+            <span class="red-soc">Visitá nuestras redes sociales !!!</span>
             <div class="social-networks">
                 <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
                 <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
                 <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
+            <div>
+                <span class="medios">Medios de pago</span>
+                 <ul class="medios-pago">
+                    <li>Efectivo (10% de descuento !)</li>
+                    <li>Mercado Pago</li>
+                    <li>Transferencia Bancaria</li>
+                 </ul>
+            </div>
+            <p class="copyright">©2022 TiendaDeMascotas.com todos los derechos reservados. Todas las imagenes son de caracter ilustrativo.</p>
         </div>
     </div>
     

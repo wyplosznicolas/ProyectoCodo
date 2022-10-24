@@ -22,7 +22,6 @@ body{
                           "footer footer";
     grid-gap: 20px;
     height: 100vh;
-
 }
 
 .header{
@@ -80,15 +79,97 @@ body{
 }
 
 .social-networks{
-    text-align: center;
     font-size: 25px;
+    position: relative;
+    left: 50px;
+    top: 10px;
 }
 
-.social-networks > i {
-    margin:2px;
-    padding:2px;
+.social-networks > a {
+    padding: 5px;
+    margin: 5px;
+}
+
+.red-soc{
+    font-weight: bold;
+    position: relative;
+    left: 42px;
+}
+
+.medios{
+    font-weight: bold;
+    position:relative;
+    bottom:45px;
+    left:45%;
+}
+
+.medios-pago{
+    position: relative;
+    left: 40%;
+    bottom:50px;
+    font-size: 15px;
+}
+
+.copyright{
+    width:300px;
+    height:auto;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    left: 75%;
+    bottom:130px;
+}
+.curioso{
+    text-decoration: underline;
 }
 
 .dato{
+    font-size: 0.8em;
+    transition: all 1s ease-in-out 0.8s;
+}
+
+/*TRANSICIÓN*/
+.dato:hover{
+    font-size: 1em;
+    background-color: yellow;
     text-decoration: underline;
+}
+
+.submit{
+    background-color: black;
+    color:white;
+    border: 3px inset blue;
+    width:80px;
+    height: 30px;
+    padding: 5px;
+    position:relative;
+    left: 100px;
+}
+
+#cercana{
+    text-decoration: underline;
+    text-align: center;
+}
+.container-sucursal{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.item-sucursal{
+    background-color: rgba(0, 0, 255, 0.76);
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.mapa iframe{
+    width: 600px;
+    height:300px;
+}
+
+.descripcion p{
+    font-size:28px;
 }
