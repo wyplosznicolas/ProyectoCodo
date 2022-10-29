@@ -10,39 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/52855eb269.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Registro</title>
+    <title>Contacto</title>
 </head>
 <body>
     <div class="container2">
         <div class="item header">
             <nav class="menu contenedor">
-                <a href="index.html">Inicio</a>
-                <a href="mascotas1.html">Mascotas 1</a>
-                <a href="mascotas2.html">Mascotas 2</a>
-                <a href="formulario.html">Registro</a>
+                <a href="principal.html">Inicio</a>
+                <a href="mascotas1.html">Alimentos</a>
+                <a href="mascotas2.html">Accesorios</a>
+                <a href="formulario.html">Contacto</a>
                 <a href="sucursales.html">Sucursales</a>
             </nav>
         </div>
         <div class="item contenido">
-            <h1>Formulario de Registro</h1>
+            <h1>Contáctese con Nosotros</h1>
         
             <form action="show_data.html" method="POST">
-                <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre aqui" required>
+                <label for="nombre">Nombre completo: </label><input type="text" name="nombre" id="nombre" placeholder="Ej: Pérez Juan" required>
                 <br>
                 <br>
-                <label for="apellido">Apellido: </label><input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido aqui" required>
+                <label for="email">Correo electrónico: </label><input type="email" name="email" id="email" maxlength="50" size="30" placeholder="Ingrese su email" required>
                 <br>
                 <br>
-                <label for="direccion">Dirección: </label><input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección aqui">
-                <br>
-                <br>
-                <label for="ciudad">Ciudad: </label><input type="text" name="ciudad" id="ciudad" value="C.A.B.A">
-                <br>
-                <br>
-                <label for="codPostal">Código Postal: </label><input type="text" name="codPostal" id="codPostal" placeholder="Ingrese su código postal aqui" size="28">
-                <br>
-                <br>
-                <label for="fechaNac">Fecha de Nacimiento (dd/mm/yyyy): </label><input type="text" name="fechaNac" id="fechaNac" placeholder="Ingrese su fecha de nacimiento aqui" size="28">
+                <label for="telefono">Teléfono: </label><input type="text" name="ciudad" id="ciudad">
                 <br>
                 <br>
                 <label for="genero">Género: </label>
@@ -52,7 +43,7 @@
                 <br>
                 <br>
                 <label for="mascotas">Mascotas: </label>
-                <input type="checkbox" name="mascotas" value="Perro">Perro
+                <input type="checkbox" name="mascotas" value="Perro" checked>Perro
                 <input type="checkbox" name="mascotas" value="Gato">Gato
                 <input type="checkbox" name="mascotas" value="Canario">Canario
                 <input type="checkbox" name="mascotas" value="Peces">Peces
@@ -63,12 +54,21 @@
                 <input type="text" name="cual" id="cual" placeholder="Ingrese la especie de su mascota" size="25">
                 <br>
                 <br>
-                <label for="sexo">Sexo Mascota(s): </label>
-                <input type="radio" name="sexo" value="Macho" checked>Macho
-                <input type="radio" name="sexo" value="Hembra">Hembra
-                <input type="radio" name="sexo" value="Ambos">Ambos
+                <label for="motivo">Motivo de su consulta:</label>
+                <select name="motivo" id="motivo">
+                <option value="alimento">Compra de Alimentos</option>
+                <option value="accesorios">Compra de Accesorios</option>
+                <option value="domicilio">Envíos a Domicilio</option>
+                <option value="sugerencia">Sugerencias</option>
+                </select>
                 <br>
                 <br>
+                <label for="mensaje">Dejanos tu mensaje: </label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="40" rows="10"></textarea>
+                <br>
+                <br>
+                <b></b>
                 <input class="submit" type="submit" value="Enviar">
                 <p>Si usted hace click en el botón "Enviar", la información será enviada a la página "show_data.html"</p>
     
