@@ -69,7 +69,27 @@ body{
     flex-wrap: wrap;
     gap: 20px;
 }
+/*Inicio*/
+.inicio{
+    width:300px;
+    height: 300px;
+    margin: 10px;
+}
 
+#alimentos{
+    position:relative;
+    left: 5%;
+}
+
+#accesorios{
+    position: relative;
+    left: 30%;
+}
+#envios{
+    position: relative;
+    left: 50%;
+}
+/*Fuentes de Google Fonts*/
 .header, .footer{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -78,6 +98,7 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
+/*FOOTER*/
 .social-networks{
     font-size: 25px;
     position: relative;
@@ -119,6 +140,7 @@ body{
     left: 75%;
     bottom:130px;
 }
+/*Apartado Derecha*/
 .curioso{
     text-decoration: underline;
 }
@@ -150,6 +172,9 @@ body{
     text-decoration: underline;
     text-align: center;
 }
+
+
+/*SUCURSAL*/
 .container-sucursal{
     display: grid;
     grid-template-columns: auto auto;
