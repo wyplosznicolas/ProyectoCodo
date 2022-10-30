@@ -9,28 +9,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/52855eb269.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Alimentos</title>
+    <title>Tienda de Mascotas</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container2">
         <div class="item header">
             <nav class="menu contenedor">
-                <a href="principal.html">Inicio</a>
-                <a href="mascotas1.html">Alimentos</a>
-                <a href="mascotas2.html">Accesorios</a>
-                <a href="formulario.html">Contacto</a>
-                <a href="sucursales.html">Sucursales</a>
+                <a href="index.html">Inicio</a>
+                <a href="#" onclick="cambiarContenido('principal.html')">Bienvenidos</a>
+                <a href="#" onclick="cambiarContenido('alimentos.html')">Alimentos</a>
+                <a href="#" onclick="cambiarContenido('mascotas2.html')">Accesorios</a>
+                <a href="#" onclick="cambiarContenido('sucursales.html')">Sucursales</a>
+                <a href="#" onclick="cambiarContenido('formulario.html')">Contacto</a>
             </nav>
         </div>
-        <div class="item contenido">Contenido</div>
+        <div class="item contenido"><iframe id="contenido" name="contenido"></iframe></div>
+        <!--
         <div class="item right">
             <h3 class="curioso">Dato Curioso</h3>
+            -->
             <!--Acá cumplimos el requisito sobre la animación/transición-->
-            <p class="dato">Seguramente muchos no sepan que las narices de nuestros perros pueden ser como un carnet de identificación para cada uno de nuestros adorables amigos, ya que el patrón del tejido cutáneo de la nariz 
-                se asemeja a los patrones de las huellas dactilares: son similares entre sí, pero únicos en cada uno. Existen algunos países que utilizan este método para la identificación, ya que es menos invasivo al momento de un registro que, por ejemplo, un chip.
-                Conocé más sobre perros <a href="https://www.buenosaires.gob.ar/coronavirus/bienestar/datos-curiosos-de-nuestros-perros" target="_blank"> haciendo click aquí</a>.</p>
-        </div>
+            <!--
+            <p class="dato">¿Sabías que Argentina es el país más mascotero del mundo? Así es !! Un estudio a nivel mundial realizado por la consultora GFK -especializa en análisis de mercado- indicó que Argentina es el país con mayor porcentaje de mascotas por habitantes.
+                Ese estudio indicó que el 66% de los argentinos tiene perros, el 32% tiene gatos, el 8% tiene peces, el 7% tiene pájaros y el 6% otro tipo de animales. Muchos tienen más de una especie animal como mascota.
+                Conocé más sobre esto <a href="http://vetmarketportal.com.ar/nota/387/argentina-es-el-pais-con-mas-mascotas--cuales-son-las-mas-elegidas---/#:~:text=Ese%20estudio%20indic%C3%B3%20que%20el,mascoteros%20en%20todo%20el%20mundo." target="_blank">haciendo click aquí</a>.</p>
+            </div>
+            -->
         <div class="item footer">
             <span class="red-soc">Visitá nuestras redes sociales !!!</span>
             <div class="social-networks">

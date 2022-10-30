@@ -15,25 +15,18 @@
 <body>
     <div class="container2">
         <div class="item header">
-            <nav class="menu contenedor">
-                <a href="principal.html">Inicio</a>
-                <a href="mascotas1.html">Alimentos</a>
-                <a href="mascotas2.html">Accesorios</a>
-                <a href="formulario.html">Contacto</a>
-                <a href="sucursales.html">Sucursales</a>
-            </nav>
         </div>
         <div class="item contenido">
             <h1>Contáctese con Nosotros</h1>
         
-            <form action="show_data.html" method="POST">
+            <form name="fvalida" action="" method="POST">
                 <label for="nombre">Nombre completo: </label><input type="text" name="nombre" id="nombre" placeholder="Ej: Pérez Juan" required>
                 <br>
                 <br>
                 <label for="email">Correo electrónico: </label><input type="email" name="email" id="email" maxlength="50" size="30" placeholder="Ingrese su email" required>
                 <br>
                 <br>
-                <label for="telefono">Teléfono: </label><input type="text" name="ciudad" id="ciudad">
+                <label for="telefono">Teléfono: </label><input type="text" name="telefono" id="telefono">
                 <br>
                 <br>
                 <label for="genero">Género: </label>
@@ -54,8 +47,9 @@
                 <input type="text" name="cual" id="cual" placeholder="Ingrese la especie de su mascota" size="25">
                 <br>
                 <br>
-                <label for="motivo">Motivo de su consulta:</label>
-                <select name="motivo" id="motivo">
+                <label for="interes">Motivo de su consulta:</label>
+                <select name="interes" id="interes">
+                <option value="elegir">Elegir</option>
                 <option value="alimento">Compra de Alimentos</option>
                 <option value="accesorios">Compra de Accesorios</option>
                 <option value="domicilio">Envíos a Domicilio</option>
@@ -70,29 +64,8 @@
                 <br>
                 <b></b>
                 <input class="submit" type="submit" value="Enviar">
-                <p>Si usted hace click en el botón "Enviar", la información será enviada a la página "show_data.html"</p>
-    
-            
-    
+                
             </form>
-        </div>
-        <div class="item footer">
-            <span class="red-soc">Visitá nuestras redes sociales !!!</span>
-            <div class="social-networks">
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            <div>
-                <span class="medios">Medios de pago</span>
-                 <ul class="medios-pago">
-                    <li>Efectivo (10% de descuento !)</li>
-                    <li>Mercado Pago</li>
-                    <li>Transferencia Bancaria</li>
-                 </ul>
-            </div>
-            <p class="copyright">©2022 TiendaDeMascotas.com todos los derechos reservados. Todas las imagenes son de caracter ilustrativo.</p>
         </div>
     </div>
     

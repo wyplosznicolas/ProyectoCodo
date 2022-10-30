@@ -71,24 +71,75 @@ body{
 }
 /*Inicio*/
 .inicio{
-    width:300px;
-    height: 300px;
-    margin: 10px;
+    width:250px;
+    height: 250px;
+    padding: 5px;
 }
 
 #alimentos{
     position:relative;
-    left: 5%;
+    right: 75%;
+    color:white;
 }
 
 #accesorios{
     position: relative;
     left: 30%;
+    color:white;
 }
 #envios{
     position: relative;
     left: 50%;
+    color: white;
 }
+/*Alimentos*/
+.container-alimentos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.item-alimentos{
+    background-color: rgba(0, 0, 255, 0.76);
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    width:300px;
+    height:100px;
+    text-align: center;
+}
+
+.contenido iframe{
+    width: 100%;
+    height:100%;
+    border: 0ch;
+}
+
+/*ACCESORIOS*/
+.container-accesorios{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.item-accesorios{
+    background-color: rgba(0, 0, 255, 0.76);
+    color: white;
+    border: 1px solid black;
+    padding: 50px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+
+.item-accesorios img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
 /*Fuentes de Google Fonts*/
 .header, .footer{
     font-family: 'Ubuntu', sans-serif;
