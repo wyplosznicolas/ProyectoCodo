@@ -1,10 +1,11 @@
 body{
     color:black;
+    width: 1300px;
 }
 
 .container{
     display: grid;
-    grid-template: 100px 1fr 100px / 1fr 250px;
+    grid-template: 100px 1fr 130px / 1fr 250px;
     grid-template-areas: "header header"  
                           "contenido right"
                           "footer footer";
@@ -16,7 +17,7 @@ body{
 
 .container2{
     display: grid;
-    grid-template: 100px 1fr 100px / 1fr;
+    grid-template: 100px 1fr 130px / 1fr;
     grid-template-areas: "header header"  
                           "contenido contenido"
                           "footer footer";
@@ -173,20 +174,21 @@ body{
     font-weight: bold;
     position: relative;
     left: 42px;
+    top: 10px;
 }
 
 .medios{
     font-weight: bold;
     position:relative;
-    bottom:45px;
+    bottom:35px;
     left:45%;
 }
 
 .medios-pago{
     position: relative;
     left: 40%;
-    bottom:50px;
-    font-size: 15px;
+    bottom:40px;
+    font-size: 18px;
 }
 
 .copyright{
@@ -295,4 +297,9 @@ body{
     .item, .menu {
       background-color: pink;
     }
+  }
+
+  .api{
+    position: relative;
+    top: 300px;
   }
